@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jual motor antik berkualitas tinggi. Toko motor antik terbaik.">
+    <meta name="keywords" content="motor antik, jual motor antik, motor klasik, jual motor tua">
+    <meta name="author" content="Fachrezi Nugraha">
+    <title>Toko Motor Antik - Jual Motor Antik Berkualitas Tinggi</title>
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "fachrezi nugraha",
+        "url": "https://rezi682.github.io/jual-motor-antik/",
+        "sameAs": "https://www.instagram.com/@FachreziNugraaha",
+        "jobTitle": "mahasiswa",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "motor antik"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "jual motor antik",
+        "description": "jual motor antik berkualitas tinggi",
+        "brand": {
+          "@type": "Brand",
+          "name": "jual motor antik"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.5,
+          "reviewCount": 100
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "toko motor antik",
+        "url": "https://rezi682.github.io/jual-motor-antik/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://rezi682.github.io/jual-motor-antik/{search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.7,
+          "reviewCount": 150
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Toko Motor Antik</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Motor Antik Berkualitas Tinggi</h2>
+            <p>Temukan berbagai koleksi motor antik yang langka dan berkualitas hanya di Toko Motor Antik.</p>
+            <button onclick="window.location.href='#products'">Lihat Produk</button>
+        </section>
+
+        <section id="products">
+            <h2>Produk Kami</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <h3>Motor Antik 1</h3>
+                    <p>Motor antik klasik dengan desain vintage. Tersedia dalam kondisi terbaik.</p>
+                    <p><strong>Harga:</strong> Rp 30.000.000</p>
+                    <button onclick="window.location.href='#contact'">Beli Sekarang</button>
+                </div>
+                <div class="product-item">
+                    <h3>Motor Antik 2</h3>
+                    <p>Motor antik tahun 1960-an, kondisi sangat baik dan siap pakai.</p>
+                    <p><strong>Harga:</strong> Rp 25.000.000</p>
+                    <button onclick="window.location.href='#contact'">Beli Sekarang</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Toko Motor Antik adalah tempat terbaik untuk membeli motor antik berkualitas tinggi. Kami menyediakan berbagai pilihan motor klasik dan vintage dengan harga terjangkau.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <p>Untuk informasi lebih lanjut atau pembelian, hubungi kami:</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Motor Antik. All rights reserved.</p>
+        <p>Follow us on <a href="https://www.instagram.com/@FachreziNugraaha">Instagram</a></p>
+    </footer>
+</body>
+</html>
